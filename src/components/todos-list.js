@@ -11,7 +11,8 @@ export default class TodosList extends React.Component {
     }
 
     render() {
-        return (
+        //console.log(this.props.todos);
+        return(
             <table>
                 <TodosListHeader />
                 <tbody>
